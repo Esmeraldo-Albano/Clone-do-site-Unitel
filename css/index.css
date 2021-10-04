@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color: #5f0e8a;
+}
+
+body{
+   margin: 0px; 
+}
+
+#menu{
+    padding-bottom: 20px;
+}
+
+#menu-logo{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.nav-item a{
+    color: #663399;
+}
+
+#menu-top nav ul .nav-item .nav-link{
+    font-size: 15px;
+    color: #663399;
+    transition: all 0.5s;
+}
+
+#menu-top nav ul .nav-item .nav-link:hover{  
+    color: #ffcc33;
+}
+
+@media(max-width: 800px){
+    .container-1 div{
+        display: block;
+    }
+}
+
+#pesquisa{
+    margin-right: -10px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.bi-search{
+    color:#5f0e8a;
+    font-size: 30px;
+}
+
+.bi-person{
+    font-size: 50px;
+}
+
+#people{
+    text-align: center;
+    background: #5f0e8a;
+    color: #d5791e;
+}
+
+
+/*------------- SUB MENU-------------------*/
+
+#menusub ul{
+    list-style: none;
+}
+
+#menusub ul li{
+   padding: 10px;
+}
+
+#menusub ul ul{
+    display: flex;
+    display: none;
+}
+
+#menusub ul li:hover > ul{
+    display: block;
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
+#menusub a{
+    text-decoration: none;
+}
+
+/*--------NAVEGAÇÃO-ICON-------*/
+
+.icon-logi{
+    width: 40px;
+}
+.container-1{
+    background: #d5791e;
+}
+
+.barra{
+    padding: 35px 0px 35px 0px;
+    text-align: center;
+    border-right: 1px   solid   #cc9900;
+}
+
+.container-1 div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-1 div a:hover{
+    color: #330066;
+}
+
+/*.barra{
+    padding: 35px 0px 35px 0px;
+}*/
+
+        .bi-phone {
+            font-size: 40px;
+         }
+
+        .bi-globe{
+            font-size: 40px;
+         }
+
+        .bi-handbag{
+            font-size: 40px;
+         }
+
+        .bi-music-note-beamed{
+            font-size: 40px;
+         }
+
+
+/* -----------CONTEUDO EM DESTAQUE -------------*/
+
+#em-destaque{
+    margin: 40px 0px 40px 90px;
+}
+
+/*#aline{
+    margin-top: 40px;
+    display: flex;
+ }*/
+
+    #cardd{
+        padding-right: 40px;
+        width: 700px;
+    }
+
+
+       /* ------------ DA SO----------- */
+
+
+.conteiner h1{
+    background: red;
+}
+    #daso{
+        margin-left: 200px;
+    }
+
+        #saber{
+            margin-right: 100px;
+            padding: 17px;
+            margin-top: 60px;
+            background: #5f0e8a;
+            text-align: center;
+        }
+        
+#pdaso{
+    margin-top: 40px;
+}
+
+.sr{
+    color: #d5791e;
+    text-decoration: none;
+}
+        /* ----------EFEITO CLIQUI -----------*/
+
+#carddd{
+    width: 100%;
+}
+
+#cliqui{
+    margin-top: 40px;
+}
+
+.kison{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.saber{
+    text-align: center;
+    margin-right: 300px;
+    padding: 17px;
+    padding-right: 10px;
+    margin-top: 40px;
+    background: #5f0e8a;
+    transition: all .5s;
+}
+
+#efeito:hover > .saber{
+    background: #d5791e;
+}
+
+#cliqui a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+#efeito{
+    padding-bottom: 20px;
+   transition: all 0.1s ease-out;
+}
+
+#efeito:hover{
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 4px 30px 16px 0px #cccccc;
+}
+
+
+ /*------------- BANNER APP--------- --*/
+
+#app{
+    width: 100%;
+    margin-top: 80px;
+}
+
+#banner{
+    margin-top: auto;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#texto-do-banner{
+    position: absolute;
+    text-align:left;
+    padding: 10px;
+    bottom: 0;
+    top:50%;
+    left: 0;
+    padding-left: 150px;
+}
+
+#texto-do-banner h4{
+    color: #fff;
+}
+
+#texto-do-banner h2{
+    color: #d5791e;
+    font-size: 50px;
+}
+
+#colorapp{
+    color: red;
+}
+
+
+/*----------------AREA EQUIPAMENTOS------------*/
+
+#equipamento{
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.nav-tabs{
+    width: 90%;
+    height: 600px;
+    margin: 70px;
+    position: relative;
+}
+
+#tab1:hover > checked{
+    color: red;
+}
+
+.nav-tabs ul{
+    list-style: none;
+}
+
+.nav-tabs ul li{
+    float: left;
+}
+
+.nav-tabs label{
+    width: 140px;
+    padding: 25px;
+    background: #fff;
+    display: block;
+    color: #5f0e8a;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-tabs label:hover{
+    background: #cccccc;
+    color: #fff;
+}
+
+.rd-tabs:checked ~ label{
+    background: #5f0e8a;
+}
+
+.rd-tabs{
+    display: none;
+}
+
+.cont{
+    border-top: 2px solid #5f0e8a;
+    display: none;
+    position: absolute;
+    height: 320px;
+    width: 90%;
+    left: 0px;
+}
+
+.rd-tabs:checked ~ .cont{
+    display: block;
+}
+
+.cont article{
+    padding: 10px;
+}
+
+article{
+    padding: 50px;
+}
+
+article .card-img-top{
+    padding-bottom: 20px;
+   transition: all 0.1s ease-out;
+    width: 200px;
+}
+
+article .card-img-top:hover{
+    cursor: pointer;
+    transform: translateY(-12px);
+  
+}
+
+/* -----------------RODAPE ..........*/
+
+#logotip{
+    width: 200px;
+}
+
+#rodape{
+    padding: 80px 0px 80px 0px;
+    background: #5f0e8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#area-nav ul {
+    margin-right: 100px;
+    display: inline-block;
+    list-style: none;
+}
+
+#area-nav ul a{
+    color: #d5791e;
+    text-decoration: none;
+}
+
+b{
+    color: #d5791e;
+}
+
+#redeso{
+    padding-top: 30px;
+}
+
+#redeso a{
+    color: #d5791e;
+    transition: all .5s;
+}
+
+#redeso a:hover{
+    color: #fff;
+}
+
+.redes{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/*-------------------------------------*/
+
+#area-div1 ul li{
+    color: #d5791e;
+    font-size: 12px;
+}
+
+#area-div1 ul a{
+    font-size: 12px;
+  text-decoration: none; 
+}
+
+#area-div1 ul{
+    list-style: none;
+    
+}
+
+#area-div1{
+    padding: 50px 90px 10px 40px;
+    background: #5f0e8a;
+    display: flex;
+    border-top: 1px   solid   #663399;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#fundob{
+    background: #5f0e8a;
+}
+
+#ul-sub{
+    display: flex;
+    color: #d5791e;
+}
+
+#ul-sub ul{
+    text-align: center;
+}
